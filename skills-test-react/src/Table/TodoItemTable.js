@@ -74,7 +74,7 @@ const TodoItemTable = () => {
         isOpen={activeDialog}
         cancelText="Cancel"
         confirmText="Delete Record"
-        icon={DeleteIcon}
+        Icon={DeleteIcon}
         onCancel={() => setActiveDialog(false)}
         onSubmit={() => {
           handleDelete(values)
